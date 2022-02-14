@@ -12,6 +12,7 @@ const UseStateObject = () => {
   // const [message,setMessage] = useState('random message')
 
   const changeMessage = () => {
+    // ...person makes a copy of person
     setPerson({ ...person, message: 'hello world' });
     // setMessage('hello world')
   };
